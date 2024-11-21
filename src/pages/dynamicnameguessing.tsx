@@ -1,6 +1,6 @@
 import React, { Context, useState } from 'react';
 import { useRouter } from 'next/router';
-export default function dynamicnameguessing({ data }: { data: any }) {
+export default function Dynamicnameguessing({ data }: { data: any }) {
     const [name, setName] = useState('');
     const router = useRouter();
     const handleSubmit = (e) => {
